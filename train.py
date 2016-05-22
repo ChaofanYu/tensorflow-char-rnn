@@ -50,7 +50,7 @@ def main():
     parser.add_argument('--valid_frac', type=float, default=0.05,
                         help='fraction of data used for validation.')
     # test_frac is computed as (1 - train_frac - valid_frac).
-    parser.add_argument('--dropout', type=float, default=0.5,
+    parser.add_argument('--dropout', type=float, default=0.0,
                         help='dropout rate, default to 0 (no dropout).')
 
     parser.add_argument('--input_dropout', type=float, default=0.0,
